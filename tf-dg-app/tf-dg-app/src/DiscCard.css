@@ -1,0 +1,52 @@
+.discCard {
+    color: white;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    transition: transform 100ms;
+    align-content: center;
+    text-align: center;
+}
+
+.discCard > img {
+    height: 250px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.discCard > h1 {
+   
+}
+
+.discCard:hover {
+    transform: scale(1.01);
+    
+}
+
+.discCard > h2 {
+    font-size: medium;
+    display: none;
+}
+
+.discCard:hover > h2 {
+    font-size: medium;
+    display: inline-flex;
+}
+
+.discCard__stats {
+    display: none;
+}
+
+.discCard:hover > .discCard__stats {
+    display: flex;
+    font-size: small;
+    justify-content: space-evenly;
+}
+
+.discCard > a {
+    display: none;
+}
+
+.discCard:hover > a {
+    display: inline-flex;
+}

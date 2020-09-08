@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "buildSet-Executionpolicy -Scope CurrentUser -ExecutionPolicy UnRestricted",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
